@@ -20,7 +20,7 @@
 .first{
     display: grid;
     grid-template-rows: auto;
-
+    justify-content: center;
     
 }
 .logo{
@@ -40,6 +40,8 @@
     flex-direction: row;
     align-items: center;
     max-width: 500px;
+    justify-content: center;
+    margin-top: 20px;
 }
 .ios, .mac{
     max-width: 230px;
@@ -48,11 +50,49 @@
     justify-content: center;
     border-radius: 20px;
     display: flex;
+
 }
 .mac{
     background-color: #8896FF;
+    width: 200px;
 }
 .ios{
     background-color: #5DCCBB;
+    margin-right: 30px;
+    width: 200px;
+}
+
+.keep{
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-items:center ;
+
+}
+.foot{
+    display: flex;
+    flex-direction: row-reverse;
+
+
+}
+.imag{
+    margin-left: -180px;
+    
+}
+.head .par{
+    max-width: 500px;
+}
+.side {
+    text-align: start;
+    max-width: 300px;
+    padding-top: 30px;
+}
+.imag .screen{
+    width: 550px;
+    margin-right: 68px;
+}
+.foot, .head{
+    margin-top: 50px;
 }
